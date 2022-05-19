@@ -7,30 +7,21 @@
 body{
     background-color: rgb(53, 53, 187);
 
-    color: white;
-
     text-align: center;
 }
 
 body h1{
     font-size: 2.5rem;
+    color: white;
 }
 
 body a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
-.manha{
-    background-color: yellow;
-}
-
-.tarde{
-    background-color: orange;
-}
-
-.noite{
-    background-color: green;
+body a:hover{
+    text-decoration: underline;
 }
 
 #interface{
@@ -42,17 +33,12 @@ body a{
     box-shadow: .3rem .3rem .6rem rgba(0, 0, 0, 0.575);
 
     width: 31.25rem;
-    height: 31.25rem;
+    padding: .3rem;
 
     background-color: white;
 }
-
-#interface #horas{
-    width: 100%;
-    height: 1.25rem;
-
-    margin-bottom: 1rem;
+#interface #msg{
+    text-transform: uppercase;
 }
-#interface #foto{
-    width: f;
-}
+
+

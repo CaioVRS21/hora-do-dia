@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Hora do dia</title>
 </head>
-<body>
+<body onload="carregar()">
     <script src="main.js"></script>
 
     <header id="cabecalho">
@@ -17,12 +17,11 @@
 
     <section id="interface" >
 
-        <div class="item" id="horas">
-            <p>São x da tarde</p>
+        <div id="msg">
+            Aqui vai a mensagem
         </div>
-
-        <div class="item" id="foto">
-            <!-- <img src="./media/manha-att.png" alt="" srcset=""> -->
+        <div id="foto">
+            <img id="img" src="./media/manha-att.png" alt="foto da hora do dia">
         </div>
 
     </section>
